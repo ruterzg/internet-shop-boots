@@ -18,6 +18,12 @@ const App = () => {
   return (
     <Box className="Header" image="">
       <header style={headerStyles}>
+        {/* <Router>                            
+          <Switch>
+            <Route path="/новая-страница" component={AnotherPage} />
+            <Route path="/" component={ButtonComponent} />
+          </Switch>
+        </Router> */}
         {/* <IconButton sx={{ color: "white" }} aria-label="menu">
           <NightlightRoundIcon />
         </IconButton> */}
